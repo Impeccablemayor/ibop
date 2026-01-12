@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import AdminUsers from "./pages/admin/AdminUsers";
+import AdminDashboard from "./pages/dashboards/AdminDashboard";
+import AdminUsers from "./pages/dashboards/AdminUsers";
 
 export default function App() {
   return (
