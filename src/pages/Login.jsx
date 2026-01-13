@@ -4,8 +4,8 @@ import InputField from "./InputField"; // your existing input component
 
 // Lazy-loaded dashboards
 const AdminDashboard = lazy(() => import("@/pages/dashboards/AdminDashboard"));
-// const ManagerDashboard = lazy(() => import("@/pages/dashboards/ManagerDashboard"));
-// const StaffDashboard = lazy(() => import("@/pages/dashboards/StaffDashboard"));
+const ManagerDashboard = lazy(() => import("@/pages/dashboards/ManagerDashboard"));
+const StaffDashboard = lazy(() => import("@/pages/dashboards/StaffDashboard"));
 
 export default function Login() {
   const [formData, setFormData] = useState({ email: "", password: "" });

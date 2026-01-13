@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Create axios instance
 const api = axios.create({
-  baseURL: "https://your-backend.com/api", // replace with your backend URL
+  baseURL: "https://ibop-api.onrender.com", // replace with your backend URL
 });
 
 // Add a request interceptor to include JWT automatically
